@@ -1,0 +1,139 @@
+.navbar {
+  z-index: 100;
+  position: sticky;
+  width: 100vw;
+  top: 0;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 170px ;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.902);
+  color: white;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transition: ease-in-out .9s;
+}
+.navbar-logo p {
+  font-family: "Bodoni Moda", serif;
+  font-size: 14px;
+  padding-top: 4px ;
+}
+.navbar-logo img {
+  width: 33px;
+  height: 100%;
+}
+
+
+.navbar-right-side {
+  display: flex;
+  gap: 30px;
+}
+
+
+.navbar-tabs {
+  display: flex;
+  gap: 20px;
+  /* transform: scale(1);
+  animation: tabs-appear  .5s; */
+}
+.navbar-tabs li {
+  color: rgba(255, 255, 255, 0.726);
+}
+.navbar-tabs li:hover {
+  color: rgb(255, 255, 255);
+}
+/* @keyframes tabs-appear {
+  0% {
+    transform: scale(0%);
+  }
+  100% {
+    transform: scale(100%);
+  }
+} */
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.socials img {
+  width: 18px;
+  filter: brightness(150%);
+}
+.socials img:hover {
+  filter: brightness(100%);
+}
+.yt img{
+  width: 22px;
+}
+
+/* DROPDOWN */
+.nav-dropdown {
+  position: relative;
+  display: none;
+}
+.dropdown-menu-open {
+  visibility: hidden;
+}
+.dropdown {
+  position: absolute;
+  top: 52px;
+  right: -40px;
+  width: 450px;
+  height: 88vh;
+  background-color: rgba(0, 0, 0, 0.902);
+  transform: translateX(100%);
+  transition: transform .5s ease-in-out, opacity .5s ease-in-out, visibility .5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.dropdown.open {
+  transform: translateX(0%);
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-tabs {
+  text-align: end;
+  padding-right: 50px;
+  padding-top: 50px;
+  font-size: 1.2em;
+  opacity: 0;
+  transition: opacity .1s ease-in-out;
+}
+.dropdown-tabs.open {
+  opacity: 1
+}
+.dropdown-tabs li {
+  margin-top: 40px;
+}
+/* .dropdown-tabs li::after {
+  content: "";
+  display: block;
+  width: -70%;
+  border: .5px rgba(255, 255, 255, 0.13) solid;
+  margin-top: -5px;
+} */
+
+
+@media (max-width: 976px) {
+  .navbar {
+    padding-inline: 70px;
+  }
+  .navbar-right-side {
+    display: none;
+  }
+  .nav-dropdown {
+    display: block;
+    margin-right: -30px;
+  }
+  .nav-dropdown img {
+    width: 30px;
+    cursor: pointer;
+  }
+}

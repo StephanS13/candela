@@ -1,0 +1,32 @@
+.contact-title-container {
+  margin-top: 5vh;
+  margin-left: 170px;
+  color: rgba(0, 0, 0, 0.822);
+}
+/* .contact-title-container::after {
+  content: '';
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.071);
+  margin-top: 20px;
+} */
+.contact-text-container {
+  width: 70vw;
+  margin: auto;
+  margin-top: 20vh;
+  text-align: center;
+  font-size: 16px;
+}
+.contact-text-container > p {
+  /* font-weight: normal; */
+}
+.contact-text-container p:nth-child(2n), 
+p:nth-child(3n)  {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 976px) {
+  .contact-title-container {
+    margin-left: 70px;
+  }
+}

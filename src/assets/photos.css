@@ -1,0 +1,14 @@
+.photos-hero {
+  height: 250px;
+  padding-top: 70px;
+  text-align: center;
+  font-family: Title;
+}
+.photos-hero h1::after {
+  content: '';
+  display: block;
+  width: 90px;
+  margin-top: 40px;
+  margin-inline: auto;
+  border: 1px solid rgba(0, 0, 0, 0.301);
+}
