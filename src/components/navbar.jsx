@@ -42,15 +42,13 @@ function Navbar() {
           <Link to="instagram.com"><img src="instagram.svg" alt="" /></Link>
         </ul>
       </div>
-
-
+      
       <button 
         onClick={toggleLanguage}
-        className="language-buttons"
+        className="language-button"
       >
         {language === 'EN' ? 'EN' : 'FR'}
       </button>
-
 
       <NavDropdown/>
     </nav>

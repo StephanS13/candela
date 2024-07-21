@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useLanguage } from '../contexts/LanguageContext'
 
 function NavDropdown() {
   const [toggle, setToggle] = useState(false)
+  const { language, toggleLanguage } = useLanguage()
 
   return (
     <div className="nav-dropdown"
@@ -11,10 +13,34 @@ function NavDropdown() {
       <img src="hamburger.svg" alt="menu" className={toggle ? 'dropdown-menu-open' : ''} />
       <div className={`dropdown ${toggle ? 'open' : ''}`}>
         <ul className={`dropdown-tabs ${toggle ? 'open' : ''}`}>
-          <Link to="/about"><li>À propos</li></Link>
-          <Link to="/films"><li>Films</li></Link>
-          <Link to="/photos"><li>Photos</li></Link>
-          <Link to="/contact"><li>Contact</li></Link>
+          <li className='dropdown-language'>
+              { language === 'EN' ? (
+                  <img src='icons/uk-flag.svg' 
+                  alt='switch to English'
+                  onClick={toggleLanguage}/>
+                ): (
+                  <img src='icons/french-flag.svg'
+                  alt='langue française' 
+                  onClick={toggleLanguage}/>
+                )}
+          </li>
+          { language === 'EN' ? (
+              <>
+                <Link to="/about"><li>À propos</li></Link>
+                <Link to="/films"><li>Films</li></Link>
+                <Link to="/photos"><li>Photos</li></Link>
+                <Link to="/contact"><li>Contact</li></Link>
+              </>
+            ) : (
+              <>
+                <Link to="/about"><li>About</li></Link>
+                <Link to="/films"><li>Films</li></Link>
+                <Link to="/photos"><li>Photos</li></Link>
+                <Link to="/contact"><li>Contact</li></Link>
+              </>
+            )
+          }
+
         </ul>
       </div>
     </div>

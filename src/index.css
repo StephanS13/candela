@@ -39,7 +39,8 @@ a:-webkit-any-link {
 }
 
 /* @font-face {
-  font-family: 'Title-bold';
-  src: url('/home/stephan/candela/src/assets/fonts/Integralcf/Fontspring-DEMO-integralcf-bold.otf') format('opentype');  font-weight: bold;
-  font-style: normal;
+  font-family: 'Title-italic';
+  src: url('/home/stephan/candela/src/assets/fonts/Integralcf/Fontspring-DEMO-integralcf-regularoblique.otf') format('opentype');  
+  font-weight: normal;
+  font-style: italic;
 } */
