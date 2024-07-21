@@ -73,6 +73,18 @@
   width: 22px;
 }
 
+/* BUTTONS */
+.language-buttons {
+  position: absolute;
+  right: 50px;
+  background-color: inherit;
+  border: solid 1px rgba(255, 255, 255, 0.482);
+  border-radius: 100%;
+  color: white;
+  padding: 10px;
+  /* padding-inline: 8px; */
+}
+
 /* DROPDOWN */
 .nav-dropdown {
   position: relative;
