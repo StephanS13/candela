@@ -12,11 +12,15 @@
   color: white;
 }
 
+
 .navbar-logo {
   display: flex;
   align-items: center;
   gap: 7px;
   transition: ease-in-out .9s;
+}
+.navbar-logo:hover {
+  color: rgb(255, 255, 255, 0.726);
 }
 .navbar-logo p {
   font-family: "Bodoni Moda", serif;
@@ -33,8 +37,6 @@
   display: flex;
   gap: 30px;
 }
-
-
 .navbar-tabs {
   display: flex;
   gap: 20px;
@@ -42,10 +44,10 @@
   animation: tabs-appear  .5s; */
 }
 .navbar-tabs li {
-  color: rgba(255, 255, 255, 0.726);
+  color: rgba(255, 255, 255);
 }
 .navbar-tabs li:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 0.726);
 }
 /* @keyframes tabs-appear {
   0% {
@@ -76,11 +78,29 @@
 .language-button {
   position: absolute;
   right: 50px;
-  background-color: inherit;
-  border: solid 1px rgba(255, 255, 255, 0.482);
-  border-radius: 100%;
-  color: white;
-  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.838);
+}
+.dropdown-for-languages.open {
+  position: absolute;
+  top: 45px;
+  right: -50px;
+  width: 170px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.902);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 0 0 0 8px;
+}
+.dropdown-for-languages img {
+  display: none;
+}
+.dropdown-for-languages.open img {
+  width: 40px;
+  display: inline;
+  filter: grayscale(20%);
 }
 
 /* DROPDOWN */

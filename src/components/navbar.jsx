@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import NavDropdown from './navDropdown';
@@ -6,6 +6,9 @@ import '../assets/navbar.css'
 
 function Navbar() {
   const { language, toggleLanguage } = useLanguage();
+  const [toggleLanguageDrop, setToggleLanguageDrop] = useState(false)
+
+  console.log(toggleLanguageDrop)
 
   return (
     <nav className="navbar">
@@ -43,12 +46,22 @@ function Navbar() {
         </ul>
       </div>
       
-      <button 
-        onClick={toggleLanguage}
+      <div 
+        onClick={() => setToggleLanguageDrop(!toggleLanguageDrop)}
         className="language-button"
-      >
-        {language === 'EN' ? 'EN' : 'FR'}
-      </button>
+      > Language
+        <div className={`dropdown-for-languages ${toggleLanguageDrop ? 'open' : ''}`}>
+          <img src='icons/uk-flag.svg' 
+          alt='switch to English'
+          onClick={toggleLanguage}
+          />
+          <img src='icons/french-flag.svg'
+          alt='langue française'
+          onClick={toggleLanguage}
+          />
+        </div>
+
+      </div>
 
       <NavDropdown/>
     </nav>
