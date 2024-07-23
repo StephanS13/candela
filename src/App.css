@@ -1,5 +1,5 @@
-/* PRESTATION */
-.hero {
+/* FILMS */
+/* .hero {
   background-image: url("../public/wedding.jpg");
   height: 100vh;
   width: 100%;
@@ -32,7 +32,6 @@
 .hero-2-title {
   width: 35vw;
   align-self: center;
-  /* text-align: end; */
   padding-left: 1.5em;
 }
 .hero-2-pic {
@@ -41,4 +40,4 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */

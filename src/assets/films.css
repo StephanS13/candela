@@ -1,0 +1,34 @@
+.films-hero {
+  height: 250px;
+  padding-top: 70px;
+  text-align: center;
+  font-family: Title;
+}
+.films-hero h1::after {
+  content: '';
+  display: block;
+  width: 90px;
+  margin-top: 40px;
+  margin-inline: auto;
+  border: 1px solid rgba(0, 0, 0, 0.301);
+}
+.films-container { 
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  transform: translateY(0);
+  transition: transform 2.5s ease-in-out;
+
+  @starting-style {
+    transform: translateY(100px);
+  }
+}
+
+
+@media (max-width: 976px) {
+  .films-container {
+    height: 50vw; 
+    /* Optimizes the extra space above the video, created by Vimeo's properties '.vp-center' */
+  }
+}

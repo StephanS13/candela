@@ -10,7 +10,6 @@ function Photos() {
       </div>
       <Grid />
     </div>
-    
   )
 }
 
