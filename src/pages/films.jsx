@@ -16,7 +16,28 @@ function Films() {
           width='80%'
           height='80%'
           controls={true} 
+          className='films-item'
+          config={{
+            vimeo: {
+              playerOptions: {
+                title: true
+              }}
+          }}
         />
+        <ReactPlayer 
+          url='https://vimeo.com/333199602' 
+          width='80%'
+          height='80%'
+          controls={true} 
+          className='films-item'
+          config={{
+            vimeo: {
+              playerOptions: {
+                title: true
+              }}
+          }}
+        />
+        <div className="custom-title">Sélection Short film corner Cannes 2019</div>
       </div>
     </div>
     

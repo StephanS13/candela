@@ -13,10 +13,11 @@
   border: 1px solid rgba(0, 0, 0, 0.301);
 }
 .films-container { 
-  /* margin: 0 auto; */
   display: flex;
-  justify-content: center;
-  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  height: 100vw;
   transform: translateY(0);
   transition: transform 2.5s ease-in-out;
 
@@ -25,10 +26,13 @@
   }
 }
 
+.films-item {
+  width: 100vw;
+}
 
-@media (max-width: 976px) {
-  .films-container {
-    height: 50vw; 
-    /* Optimizes the extra space above the video, created by Vimeo's properties '.vp-center' */
-  }
+.custom-title {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 14px;
 }
