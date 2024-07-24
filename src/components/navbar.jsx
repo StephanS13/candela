@@ -14,7 +14,8 @@ function Navbar() {
     <nav className="navbar">
       <Link to="/">
         <div className="navbar-logo">
-          <img src="logo-candela2.jpg" alt=''/> CANDELA | 
+          <img src="logo-candela2.jpg" alt=''/> CANDELA
+          <span> |</span>
           <span><p> FILMS</p></span>
         </div>
       </Link>

@@ -186,3 +186,24 @@
     cursor: pointer;
   }
 }
+@media (max-width: 500px) {
+  .navbar {
+    padding-inline: 50px;
+  }
+  .nav-dropdown {
+    margin-right: 0px;
+  }
+}
+@media (max-width:400px) {
+  .navbar-logo span {
+    display: none;
+  }
+  .navbar-logo p {
+    display: none;
+  }
+}
+@media (max-width: 290px) {
+  .navbar {
+    padding-inline: 30px;
+  }
+}

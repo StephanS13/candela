@@ -5,6 +5,7 @@ import '../assets/contact.css'
 
 function Contact() {
   const { language } = useLanguage();
+  
   return (
     <>
       <div className="contact-title-container">

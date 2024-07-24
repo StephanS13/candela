@@ -1,16 +1,23 @@
-.footer-sticky {
-  position: fixed;
+.footer-fixed {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 20vh;
   width: 100vw;
-  bottom: 0;
   background-color: rgba(0, 0, 0, 0.902);
   color: white;
   text-align: center;
   font-size: 12px;
 }
-.footer-sticky p {
+.footer-fixed p {
   padding-inline: 5vw;
+}
+
+@media (max-width: 500px) {
+  .footer-fixed {
+    font-size: 11px;
+  }
+  .footer-fixed p {
+    padding-inline: 10vw;
+  }
 }

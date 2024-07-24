@@ -2,6 +2,7 @@
   margin-top: 5vh;
   margin-left: 170px;
   color: rgba(0, 0, 0, 0.822);
+  font-family: Title;
 }
 /* .contact-title-container::after {
   content: '';
@@ -15,12 +16,10 @@
   margin-top: 20vh;
   text-align: center;
   font-size: 16px;
-}
-.contact-text-container > p {
-  /* font-weight: normal; */
+  padding-bottom: 20vh;
 }
 .contact-text-container p:nth-child(2n), 
-p:nth-child(3n)  {
+.contact-text-container p:nth-child(3n)  {
   margin-top: 20px;
   font-weight: bold;
 }
@@ -28,5 +27,11 @@ p:nth-child(3n)  {
 @media (max-width: 976px) {
   .contact-title-container {
     margin-left: 70px;
+  }
+}
+@media (max-width: 650px) {
+  .contact-text-container {
+    margin-top: 15vh;
+    text-align: center;
   }
 }

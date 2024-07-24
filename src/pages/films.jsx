@@ -1,10 +1,13 @@
 import React from 'react'
+import { useLanguage } from '../contexts/LanguageContext'
 import ReactPlayer from 'react-player/vimeo';
 import '../assets/films.css'
 
 
 
 function Films() {
+  const { language } = useLanguage();
+
   return (
     <div>
       <div className="films-hero">
@@ -37,7 +40,12 @@ function Films() {
               }}
           }}
         />
-        <div className="custom-title">Sélection Short film corner Cannes 2019</div>
+        <div className="custom-title">
+          { language === 'EN' ?
+            "Sélection Short film corner Cannes 2019"
+          : "Cannes 2019 Short Film Corner selection"
+          }
+        </div>
       </div>
     </div>
     

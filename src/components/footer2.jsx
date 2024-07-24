@@ -1,12 +1,12 @@
 import React from 'react'
-import '../assets/footer.css'
+import '../assets/footer2.css'
 
-function Footer() {
+function Footer2() {
   return (
-    <footer className='footer-sticky'>
+    <footer className='footer-fixed'>
       <p>© Frédéric Simcic, Freelance Filmmaker 2024 | Website by Stéphane Simcic</p>
     </footer>
   )
 }
 
-export default Footer;
+export default Footer2
