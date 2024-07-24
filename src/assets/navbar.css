@@ -186,12 +186,15 @@
     cursor: pointer;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .navbar {
-    padding-inline: 50px;
+    padding-inline: 40px;
   }
   .nav-dropdown {
     margin-right: 0px;
+  }
+  .dropdown.open {
+    /* right:0; */
   }
 }
 @media (max-width:400px) {
@@ -200,6 +203,10 @@
   }
   .navbar-logo p {
     display: none;
+  }
+  .dropdown {
+    right: 0px; 
+    /* added this one */
   }
 }
 @media (max-width: 290px) {
