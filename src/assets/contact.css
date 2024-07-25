@@ -30,6 +30,11 @@
   }
 }
 @media (max-width: 650px) {
+  .contact-title-container {
+    text-align: center;
+    margin-left: 0;
+
+  }
   .contact-text-container {
     margin-top: 15vh;
     text-align: center;

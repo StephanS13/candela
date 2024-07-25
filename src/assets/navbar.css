@@ -206,7 +206,7 @@
   }
   .dropdown {
     right: 0px; 
-    /* added this one */
+    /* added this one for the dropdown to open at the right place on mobile */
   }
 }
 @media (max-width: 290px) {
