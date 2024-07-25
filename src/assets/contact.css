@@ -16,7 +16,7 @@
   margin-top: 20vh;
   text-align: center;
   font-size: 16px;
-  padding-bottom: 20vh;
+  /* padding-bottom: 20vh; */
 }
 .contact-text-container p:nth-child(2n), 
 .contact-text-container p:nth-child(3n)  {
@@ -24,12 +24,12 @@
   font-weight: bold;
 }
 
-@media (max-width: 976px) {
+@media only screen and (max-width: 976px) {
   .contact-title-container {
     margin-left: 70px;
   }
 }
-@media (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   .contact-title-container {
     text-align: center;
     margin-left: 0;

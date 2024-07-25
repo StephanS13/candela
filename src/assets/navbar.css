@@ -167,7 +167,7 @@
 }
 
 
-@media (max-width: 976px) {
+@media only screen and (max-width: 976px) {
   .navbar {
     padding-inline: 70px;
   }
@@ -186,7 +186,7 @@
     cursor: pointer;
   }
 }
-@media (max-width: 550px) {
+@media only screen and (max-width: 550px) {
   .navbar {
     padding-inline: 40px;
   }
@@ -197,7 +197,7 @@
     /* right:0; */
   }
 }
-@media (max-width:400px) {
+@media only screen and (max-width:480px) {
   .navbar-logo span {
     display: none;
   }
@@ -205,11 +205,11 @@
     display: none;
   }
   .dropdown {
-    right: 0px; 
+    /* right: 0px;  */
     /* added this one for the dropdown to open at the right place on mobile */
   }
 }
-@media (max-width: 290px) {
+@media only screen and (max-width: 290px) {
   .navbar {
     padding-inline: 30px;
   }
