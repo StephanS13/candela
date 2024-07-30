@@ -1,12 +1,11 @@
 /* src/VideoPlayer.css */
 .video-background {
   position: fixed;
-  bottom: 0;
-  left: 0;
+  top: 0;
   min-width: 100%;
   height: 100vh;
   object-fit: cover;
-  object-position: top;
+  object-position: bottom;
   z-index: -1;
 }
 
@@ -15,5 +14,17 @@
     min-width: none;
     width: 100vw;
     object-position: center;
+  }
+}
+@media (max-width: 590px) {
+  .video-background {
+    position: fixed;
+    top: 0;
+    min-width: none;
+    /* height: auto; */
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    /* overflow: hidden; */
   }
 }

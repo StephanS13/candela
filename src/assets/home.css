@@ -1,5 +1,10 @@
 .home-container {
-  height: auto;
-  /* overflow-x: hidden !important; */
+  position: relative;
+  /* height: auto; */
+  overflow: hidden !important;
+}
+@media (max-width: 590px) {
+  .home-container {
 
+  }
 }

@@ -4,12 +4,6 @@
   color: rgba(0, 0, 0, 0.822);
   font-family: Title;
 }
-/* .contact-title-container::after {
-  content: '';
-  display: block;
-  border: 1px solid rgba(0, 0, 0, 0.071);
-  margin-top: 20px;
-} */
 .contact-text-container {
   width: 70vw;
   margin: auto;
@@ -33,10 +27,11 @@
   .contact-title-container {
     text-align: center;
     margin-left: 0;
-
+    margin-top: 10vh;
   }
   .contact-text-container {
     margin-top: 15vh;
     text-align: center;
+    margin-top: none;
   }
 }

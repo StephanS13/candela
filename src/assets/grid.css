@@ -4,6 +4,12 @@
   /* grid-template-rows: repeat(3, 1fr); */
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  transform: translateY(0);
+  transition: transform 2.5s ease-in-out;
+
+  @starting-style {
+    transform: translateY(100px);
+  }
 }
 .grid img {
   width: 100%;
@@ -17,7 +23,7 @@
     grid-row-gap: 0px;
   }
 }
-@media (max-width:450px) {
+@media (max-width:550px) {
   .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

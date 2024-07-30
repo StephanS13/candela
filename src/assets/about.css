@@ -1,7 +1,16 @@
+.about-page {
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+
+  @starting-style {
+    opacity: 0;
+  }
+}
+
 .about-title-container {
   width: 65vw;
   height: 50px;
-  margin-top: 5vh;
+  margin-top: 9vh;
   margin-left: 170px;
   color: rgba(0, 0, 0, 0.822);
   font-family: Title;
@@ -13,12 +22,6 @@
   font-size: 1.5em;
   /* line-height: 25px; */
 }
-/* .about-title-container::after {
-  content: '';
-  display: block;
-  border: 1px solid rgba(0, 0, 0, 0.071);
-  margin-top: 20px;
-} */
 .about-text-container {
   width: 70vw;
   margin: auto;

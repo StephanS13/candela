@@ -7,7 +7,7 @@ function Contact() {
   const { language } = useLanguage();
   
   return (
-    <>
+    <div className="contact-page">
       <div className="contact-title-container">
         <h1>Contact</h1>
       </div>
@@ -27,7 +27,7 @@ function Contact() {
         
       </div>
       <Footer />
-    </>
+    </div>
 
   )
 }

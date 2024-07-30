@@ -4,7 +4,7 @@ import '../assets/about.css'
 
 function About() {
   return (
-    <>
+    <div className='about-page'>
       <div className='about-title-container'>
         <h1>Frederic Simcic</h1>
         <h3>Freelance Filmmaker, Director of Photography/
@@ -57,7 +57,7 @@ function About() {
         Ferrari, UPS B-Roll, DOP</p>
       </div>
       {<Footer2/>}
-    </>
+    </div>
   )
 }
 
