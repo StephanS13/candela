@@ -9,11 +9,10 @@
   margin: auto;
   margin-top: 20vh;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   /* padding-bottom: 20vh; */
 }
-.contact-text-container p:nth-child(2n), 
-.contact-text-container p:nth-child(3n)  {
+.contact-text-container p {
   margin-top: 20px;
   font-weight: bold;
 }

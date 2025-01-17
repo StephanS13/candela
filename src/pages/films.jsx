@@ -15,7 +15,7 @@ function Films() {
       </div>
       <div className='films-container'>
         <ReactPlayer 
-          url='https://vimeo.com/988278918' 
+          url='https://vimeo.com/1046688487?share=copy#t=0' 
           width='80%'
           height='80%'
           controls={true} 
@@ -27,6 +27,12 @@ function Films() {
               }}
           }}
         />
+        <div className="custom-title">
+          { language === 'EN' ?
+            "SHOWREEL24"
+          : "SHOWREEL24"
+          }
+        </div>
         <ReactPlayer 
           url='https://vimeo.com/333199602' 
           width='80%'

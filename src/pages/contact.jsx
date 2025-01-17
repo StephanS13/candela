@@ -12,11 +12,11 @@ function Contact() {
         <h1>Contact</h1>
       </div>
       <div className="contact-text-container">
-        { language === 'EN' ? 
+        {/* { language === 'EN' ? 
           <p>Veuillez me contacter pour discuter de projets tels que des films, documentaires, publicités, ou autres projects collaboratifs.</p>
           :
           <p>Please feel free to contact me to discuss any Filmmaking, TV, Commercial, Corporate commissions or collaboration projects.</p>          
-        }
+        } */}
         
         <p>frd.simcic@gmail.com</p>
         { language === 'EN' ?

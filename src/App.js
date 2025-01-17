@@ -1,6 +1,5 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { LanguageProvider } from './contexts/LanguageContext';
 import Home from './pages/home';
 import Films from './pages/films';
