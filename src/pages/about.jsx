@@ -37,7 +37,7 @@ function About() {
           
           :
           <>
-            <p>With a solid background as a camera operator/editor (M6, Orange TV...) and director, including several short films selected in festivals, I am ready to apply my skills to your project.</p>
+            <p>With a solid background as a camera operator/editor (M6, Orange TV...) and director, including several short films selected in festivals, I am willing to apply my skills to your project.</p>
 
             <ul>
               <li>- communication, advertising, institutional</li>
