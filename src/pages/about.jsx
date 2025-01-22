@@ -32,7 +32,7 @@ function About() {
 
             <p>Également pilote de drone certifié, je suis à votre disposition pour toutes prises de vue aérienne.</p>
 
-            <p>Contactez moi pour un devis.</p>
+            <p>Contactez moi pour un devis personnalisé.</p>
           </>
           
           :
