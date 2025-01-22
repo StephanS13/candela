@@ -37,7 +37,8 @@ function About() {
           
           :
           <>
-            <p>With a solid background as a camera operator/editor (M6, Orange TV...) and director, including several short films selected in festivals, I am willing to apply my skills to your project.</p>
+            {/* <p>With a solid background as a camera operator/editor (M6, Orange TV...) and director, including several short films selected in festivals, I am willing to apply my skills to your project.</p> */}
+            <p>Experienced camera operator and editor (M6, Orange TV, and more) with a strong background in directing, including short films recognized at festivals. I am eager to bring my expertise to your projects.</p>
 
             <ul>
               <li>- communication, advertising, institutional</li>
@@ -47,7 +48,7 @@ function About() {
 
             <br />
 
-            <p>Also a certified drone pilot, I am available for all sorts of aerial footage.</p>
+            <p>Furthermore, as a certified drone pilot, I am equipped to capture high-quality aerial footage for a variety of projects.</p>
 
             <p>Please contact me for a quote.</p>
           </>       
