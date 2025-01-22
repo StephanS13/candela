@@ -49,7 +49,7 @@ function About() {
 
             <p>Also a certified drone pilot, I am available for all aerial footage.</p>
 
-            <p>Thank you to contact me for a quote.</p>
+            <p>Please contact me for a quote.</p>
           </>       
         }
         
