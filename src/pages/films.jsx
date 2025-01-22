@@ -29,7 +29,7 @@ function Films() {
         />
         <div className="custom-title">
           { language === 'EN' ?
-            "SHOWREEL24"
+            "Démo 2024"
           : "SHOWREEL24"
           }
         </div>
