@@ -47,7 +47,7 @@ function About() {
 
             <br />
 
-            <p>Also a certified drone pilot, I am available for all aerial footage.</p>
+            <p>Also a certified drone pilot, I am available for all sorts of aerial footage.</p>
 
             <p>Please contact me for a quote.</p>
           </>       
