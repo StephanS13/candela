@@ -48,9 +48,9 @@ function About() {
 
             <br />
 
-            <p>Furthermore, as a certified drone pilot, I am equipped to capture high-quality aerial footage for a variety of projects.</p>
+            <p>As a certified drone pilot, I am also equipped to capture high-quality aerial footage for a variety of projects.</p>
 
-            <p>Please contact me for a quote.</p>
+            <p>Feel free to contact me for a personalized quote.</p>
           </>       
         }
         
