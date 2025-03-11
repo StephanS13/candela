@@ -5,6 +5,8 @@
   @starting-style {
     opacity: 0;
   }
+  li {  text-align: left; }
+  /* removes the justify text */
 }
 
 .about-title-container {

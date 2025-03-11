@@ -24,7 +24,7 @@ function About() {
 
             <ul>
               <li>- communication, publicité, institutionnel</li>
-              <li>- évènementiel (mariages, baptêmes, soirées privées...)</li>
+              <li>- évènementiel (mariages, baptêmes, soirées privées, etc.)</li>
               <li>- création de contenus</li>
             </ul>
 
