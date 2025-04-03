@@ -30,7 +30,7 @@
   margin-top: 10vh;
   margin-left: 170px;
   text-align: justify;
-  padding-bottom: 20vh;
+  padding-bottom: 5vh;
   color: rgba(0, 0, 0, 0.75);
 }
 .about-text-container p {
@@ -58,7 +58,7 @@
     margin-left: 70px;
     margin-top: 7vh;
     text-align: justify;
-    padding-bottom: 20vh;
+    padding-bottom: 1vh;
   }
 }
 @media (max-width: 650px) {
@@ -72,7 +72,7 @@
     margin-left: 70px;
     margin-top: 7vh;
     text-align: justify;
-    padding-bottom: 20vh;
+    padding-bottom: 5vh;
   }
   .about-text-container p {
     font-size: 15px;

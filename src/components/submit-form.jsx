@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useLanguage } from '../contexts/LanguageContext'
 import '../assets/submit-form.css'
 
 
 const FormComponent = () => {
   const [formData, setFormData] = useState({ email: "", message: "" });
   const [status, setStatus] = useState("");
+  const { language } = useLanguage();
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -23,7 +25,7 @@ const FormComponent = () => {
 
       const data = await response.json();
       if (response.ok) {
-        setStatus("Email sent successfully!");
+        setStatus("Email envoyé avec succès");
         setFormData({ email: "", message: "" });
       } else {
         setStatus("Error: " + data.error);
@@ -38,14 +40,14 @@ const FormComponent = () => {
       <input
         type="email"
         name="email"
-        placeholder="Your Email"
+        placeholder={ language === 'EN' ? "Votre email" : "Your Email" }
         value={formData.email}
         onChange={handleChange}
         required
       />
       <textarea
         name="message"
-        placeholder="Your Message"
+        placeholder={ language === 'EN' ? "Tapez votre message..." : "Your Message..."}
         value={formData.message}
         onChange={handleChange}
         required

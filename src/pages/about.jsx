@@ -20,37 +20,16 @@ function About() {
       <div className="about-text-container">
         { language === 'EN' ? 
           <>
-            <p>Fort d'une solide expérience de cadreur/monteur (M6, Orange TV...) et de réalisateur, dont plusieurs courts-métrages sélectionnés en festival, je mets à profit mes compétences au service de votre projet.</p>
-
-            <ul>
-              <li>- communication, publicité, institutionnel</li>
-              <li>- évènementiel (mariages, baptêmes, soirées privées, etc.)</li>
-              <li>- création de contenus</li>
-            </ul>
-
-            <br />
-
-            <p>Également pilote de drone certifié, je suis à votre disposition pour toutes prises de vue aérienne.</p>
-
-            <p>Contactez moi pour un devis personnalisé.</p>
+            <p>Passionné par l'image depuis mon plus jeune âge, j'ai pu explorer les diverses facettes de production d'un film via mon parcours professionnel et mon expérience personnel, en commençant comme monteur au sein de plusieurs chaines de télévision (M6, France TV...) puis tour à tour, projectionniste, distributeur de films, pilote de drone certifié, tout en réalisant divers projets personnels en parallèle, notamment des courts-métrages que j'ai écrit, produit et réalisé, dont certains sélectionnés en festival (Cannes, Clermont-Ferrand).
+            </p>
+            <p>A présent, je mets à profit mes compétences pour réaliser vos projets ; que ce soit pour promouvoir votre entreprise ou capter un événement (concerts, théâtre, mariage et autres), je m'adapte à votre demande.</p>
           </>
           
           :
           <>
             {/* <p>With a solid background as a camera operator/editor (M6, Orange TV...) and director, including several short films selected in festivals, I am willing to apply my skills to your project.</p> */}
-            <p>Experienced camera operator and editor (M6, Orange TV, and more) with a strong background in directing, including short films recognized at festivals. I am eager to bring my expertise to your projects.</p>
-
-            <ul>
-              <li>- communication, advertising, institutional</li>
-              <li>- events (weddings, baptisms, private parties, etc.)</li>
-              <li>- content creation</li>
-            </ul>
-
-            <br />
-
-            <p>As a certified drone pilot, I am also equipped to capture high-quality aerial footage for a variety of projects.</p>
-
-            <p>Feel free to contact me for a personalized quote.</p>
+            <p>Passionate about imagery from a young age, I have explored various aspects of film production through my professional career and personal experience. I started as an editor for several television channels (M6, France TV…) before taking on roles as a projectionist, film distributor, and certified drone pilot, all while working on personal projects in parallel. These include short films that I have written, produced, and directed, some of which have been selected at festivals such as Cannes and Clermont-Ferrand.</p>
+            <p>Now, I put my skills to work to bring your projects to life. Whether it’s promoting your business or capturing an event (concerts, theater, weddings, and more), I adapt to your needs.</p>
           </>       
         }
         
