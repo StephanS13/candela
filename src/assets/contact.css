@@ -7,10 +7,13 @@
 .contact-text-container {
   width: 70vw;
   margin: auto;
-  margin-top: 20vh;
+  margin-top: 18vh;
   text-align: center;
   font-size: 18px;
   /* padding-bottom: 20vh; */
+}
+.contact-text-container h4 {
+  font-weight: 300;
 }
 .contact-text-container p {
   margin-top: 20px;

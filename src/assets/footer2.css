@@ -1,10 +1,10 @@
 .footer-fixed {
+  margin-top: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 20vh;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.922);
+  /* width: 100vw; */
+  /* background-color: rgba(0, 0, 0, 0.922); */
   color: white;
   text-align: center;
   font-size: 12px;

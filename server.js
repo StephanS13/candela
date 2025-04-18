@@ -3,6 +3,12 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 
+// Load environment variables from .htaccess or process.env
+// const EMAIL_USER = process.env.EMAIL_USER || process.env["EMAIL_USER"];
+// const EMAIL_PASS = process.env.EMAIL_PASS || process.env["EMAIL_PASS"];
+
+// const { EMAIL_USER, EMAIL_PASS } = require("./config");
+
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -12,8 +18,8 @@ const transporter = nodemailer.createTransport({
   port: 465, // Use 587 if not working
   secure: true, // Use false if using port 587
   auth: {
-    user: process.env.EMAIL_USER, // Your Hostinger email
-    pass: process.env.EMAIL_PASS, // Your email password
+    user: "contact@candelafilms.fr", // Your Hostinger email
+    pass: "C@ndela13", // Your email password
   },
 });
 

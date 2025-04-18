@@ -27,15 +27,15 @@ function NavDropdown() {
           { language === 'EN' ? (
               <>
                 <Link to="/about"><li>À propos</li></Link>
-                <Link to="/films"><li>Films</li></Link>
-                <Link to="/photos"><li>Photos</li></Link>
+                <Link to="/works"><li>Réalisations</li></Link>
+                <Link to="/portfolio"><li>Portfolio</li></Link>
                 <Link to="/contact"><li>Contact</li></Link>
               </>
             ) : (
               <>
                 <Link to="/about"><li>About</li></Link>
-                <Link to="/films"><li>Films</li></Link>
-                <Link to="/photos"><li>Photos</li></Link>
+                <Link to="/works"><li>Works</li></Link>
+                <Link to="/portfolio"><li>Portfolio</li></Link>
                 <Link to="/contact"><li>Contact</li></Link>
               </>
             )

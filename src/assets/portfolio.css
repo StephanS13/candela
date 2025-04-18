@@ -1,0 +1,32 @@
+.portfolio-title-container {
+  /* width: 65vw; */
+  height: 100px;
+  margin-top: 9vh;
+  /* margin-left: 130px; */
+  color: rgba(0, 0, 0, 0.822);
+  font-family: Title;
+  text-align: center;
+}
+.portfolio-title-container h1 {
+  margin-bottom: 3px;
+}
+.portfolio-title-container h3 {
+  font-size: 1.5em;
+  /* line-height: 25px; */
+}
+.photo-part {
+  margin-top: 100px;
+}
+.photo-part h1 {
+  font-family: Title;
+  text-align: center;
+  /* font-size: 1.5em; */
+  padding-bottom: 50px;
+}
+
+@media (max-width: 976px) {
+  .photo-part h1 {
+    font-size: 1.5em;
+
+  }
+}

@@ -20,21 +20,30 @@ function About() {
       <div className="about-text-container">
         { language === 'EN' ? 
           <>
-            <p>Passionné par l'image depuis mon plus jeune âge, j'ai pu explorer les diverses facettes de production d'un film via mon parcours professionnel et mon expérience personnel, en commençant comme monteur au sein de plusieurs chaines de télévision (M6, France TV...) puis tour à tour, projectionniste, distributeur de films, pilote de drone certifié, tout en réalisant divers projets personnels en parallèle, notamment des courts-métrages que j'ai écrit, produit et réalisé, dont certains sélectionnés en festival (Cannes, Clermont-Ferrand).
+            <p>Passionné par l’image depuis plus de dix ans, j’ai débuté en tant que monteur au sein de plusieurs chaînes de télévision (M6, France TV…) avant de me consacrer pleinement à la réalisation.
+            Mon troisième court-métrage, réalisé en 2019, a été sélectionné au Festival de Cannes.
+            De l’écriture à la finalisation, chacun de mes projets est produit avec une approche artisanale et exigeante.
+            Je suis également pilote de drone certifié, ce qui me permet d’enrichir mes productions avec des prises de vue aériennes de qualité.
             </p>
-            <p>A présent, je mets à profit mes compétences pour réaliser vos projets ; que ce soit pour promouvoir votre entreprise ou capter un événement (concerts, théâtre, mariage et autres), je m'adapte à votre demande.</p>
+            <p>Que ce soit pour promouvoir votre entreprise ou immortaliser un événement (mariage, concert, spectacle, etc.), je saurai m’adapter à vos besoins.
+            </p><p>
+            N’hésitez pas à me contacter pour discuter de votre projet et obtenir un devis personnalisé.</p>
           </>
           
           :
           <>
             {/* <p>With a solid background as a camera operator/editor (M6, Orange TV...) and director, including several short films selected in festivals, I am willing to apply my skills to your project.</p> */}
-            <p>Passionate about imagery from a young age, I have explored various aspects of film production through my professional career and personal experience. I started as an editor for several television channels (M6, France TV…) before taking on roles as a projectionist, film distributor, and certified drone pilot, all while working on personal projects in parallel. These include short films that I have written, produced, and directed, some of which have been selected at festivals such as Cannes and Clermont-Ferrand.</p>
-            <p>Now, I put my skills to work to bring your projects to life. Whether it’s promoting your business or capturing an event (concerts, theater, weddings, and more), I adapt to your needs.</p>
+            <p>Passionate about visual storytelling for over a decade, I began my career as an editor with major French TV channels such as M6 and France Télévisions. Over time, I transitioned into directing, culminating in the selection of my third short film at the Cannes Film Festival in 2019.
+
+            From scriptwriting to final editing, I approach each project with artisanal precision and high standards. As a certified drone pilot, I can enhance my productions with high-quality aerial footage.</p>
+            <p>Whether you’re looking to promote your business or capture a special event—be it a wedding, concert, theater performance, or otherwise—I’m committed to tailoring my services to your needs.
+            </p><p>
+            Feel free to contact me to discuss your project and receive a personalized quote.</p>
           </>       
         }
         
       </div>
-      {<Footer2/>}
+      {/* {<Footer2/>} */}
     </div>
   )
 }

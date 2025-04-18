@@ -5,8 +5,6 @@
   @starting-style {
     opacity: 0;
   }
-  li {  text-align: left; }
-  /* removes the justify text */
 }
 
 .about-title-container {
@@ -22,7 +20,6 @@
 }
 .about-title-container h3 {
   font-size: 1.5em;
-  /* line-height: 25px; */
 }
 .about-text-container {
   width: 60vw;
@@ -61,18 +58,26 @@
     padding-bottom: 1vh;
   }
 }
+@media (max-width: 800px) {
+  .about-title-container {
+    margin-top: 3vh;
+    /* padding-bottom: 0; */
+  }
+  .about-text-container {
+    margin-top: 6vh;
+    /* width: 60vw; */
+    /* margin: auto; */
+  }
+}
 @media (max-width: 650px) {
   .about-title-container h3 {
     font-size: 0.9em;
     line-height: 19px;
   }
   .about-text-container {
-    position: relative;
     width: 70vw;
     margin-left: 70px;
-    margin-top: 7vh;
-    text-align: justify;
-    padding-bottom: 5vh;
+    margin-top: 5vh;
   }
   .about-text-container p {
     font-size: 15px;
