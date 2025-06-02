@@ -33,6 +33,6 @@
 .custom-title {
   margin-top: -20px;
   margin-bottom: 10px;
-  color: black;
+  color: var(--text-dark);
   font-size: 14px;
 }

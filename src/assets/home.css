@@ -1,10 +1,4 @@
 .home-container {
   position: relative;
-  /* height: auto; */
-  overflow: hidden !important;
-}
-@media (max-width: 590px) {
-  .home-container {
-
-  }
+  background-color: var(--background);
 }

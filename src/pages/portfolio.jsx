@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext'
 import ReactPlayer from 'react-player/vimeo';
 import '../assets/films.css'
@@ -6,6 +6,13 @@ import '../assets/portfolio.css'
 
 function Portfolio() {
   const { language } = useLanguage();
+  useEffect(() => {
+    document.body.style.overflow = 'auto'; // or 'visible'
+
+    return () => {
+      document.body.style.overflow = 'hidden'; // reset when leaving page
+    };
+  }, []);
 
   return (
     <div className="portfolio-page">
@@ -32,7 +39,7 @@ function Portfolio() {
           : "SHOWREEL24"
           }
         </div>
-        <ReactPlayer 
+        {/* <ReactPlayer 
           url='https://vimeo.com/333199602' 
           width='80%'
           height='80%'
@@ -50,7 +57,7 @@ function Portfolio() {
             "À l'aube de Sumer - Sélection Short film corner Cannes 2019"
           : "À l'aube de Sumer - Cannes 2019 Short Film Corner selection"
           }
-        </div>
+        </div> */}
       </div>
       {/* <div className="photo-part">
         { language === 'EN' ? <h1>Galerie photo</h1> : <h1>Photo gallery</h1> }

@@ -9,16 +9,15 @@
   justify-content: space-between;
   padding-inline: 170px ;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.922);
-  color: white;
-  opacity: 1;
-  transform: translateY(0);
-  transition: transform 1s ease-in-out, opacity 1.3s ease-in-out;
+  background-color: var(--background);
+  color: var(--text-white);
+  /* transform: translateY(0);
+  transition: transform 1s ease-in-out, opacity 1.3s ease-in-out; */
 
-  @starting-style {
+  /* @starting-style {
     transform: translateY(-12vh);
     opacity: 0;
-  }
+  } */
 }
 
 
@@ -27,9 +26,6 @@
   align-items: center;
   gap: 7px;
   transition: ease-in-out .9s;
-}
-.navbar-logo:hover {
-  color: rgb(255, 255, 255, 0.726);
 }
 .navbar-logo img {
   width: 33px;
@@ -43,15 +39,16 @@
 }
 .navbar-tabs {
   display: flex;
+  align-items: center;
   gap: 20px;
   /* transform: scale(1);
   animation: tabs-appear  .5s; */
 }
 .navbar-tabs li {
-  color: rgba(255, 255, 255);
+  color: var(--text-white);
 }
 .navbar-tabs li:hover {
-  color: rgb(255, 255, 255, 0.726);
+  color: var(--text-hover);
 }
 /* @keyframes tabs-appear {
   0% {
@@ -81,40 +78,10 @@
 /* LANGUAGE */
 .language-button {
   position: absolute;
-  right: 50px;
+  right: 55px;
   align-items: center;
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.838);
-}
-.dropdown-for-languages {
-  position: absolute;
-  top: 45px;
-  right: -50px;
-  width: 170px;
-  height: 70px;
-  background-color: rgba(0, 0, 0, 1);
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  border-radius: 0 0 0 8px;
-  transform: translateY(-100%);
-  opacity: 0;
-}
-.dropdown-for-languages.open {
-  transform: translateY(0%);
-  opacity: 1;
-  transition: transform .5s ease-in-out, opacity 1s; /* I left the transition here because transition on closing doesn't look good */
-}
-.dropdown-for-languages img {
-  display: none;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-.dropdown-for-languages.open img {
-  display: inline;
-  width: 40px;
-  filter: grayscale(20%);
-  opacity: 1;
+  color: var(--text-white);
 }
 
 
@@ -132,7 +99,7 @@
   right: -40px;
   width: 450px;
   height: 88vh;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: var(--background);
   /* transform: translateX(100%); */
   transition: transform .5s ease-in-out, opacity .5s ease-in-out, visibility .5s ease-in-out;
   opacity: 0;
@@ -188,7 +155,8 @@
   }
   .nav-dropdown {
     margin-right: 0px;
-  }  .dropdown {
+  }  
+  .dropdown {
     transform: none;
   }
   .dropdown.open {

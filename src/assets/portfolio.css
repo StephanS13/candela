@@ -1,9 +1,9 @@
 .portfolio-title-container {
   /* width: 65vw; */
-  height: 100px;
-  margin-top: 9vh;
+  height: 80px;
+  margin-top: 6vh;
   /* margin-left: 130px; */
-  color: rgba(0, 0, 0, 0.822);
+  color: var(--background);
   font-family: Title;
   text-align: center;
 }
@@ -13,6 +13,10 @@
 .portfolio-title-container h3 {
   font-size: 1.5em;
   /* line-height: 25px; */
+}
+
+.films-container {
+  max-height: 500px;
 }
 .photo-part {
   margin-top: 100px;
