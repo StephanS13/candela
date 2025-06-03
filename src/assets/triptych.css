@@ -12,16 +12,18 @@
   animation-timing-function: cubic-bezier(0.42, 0, 0.2, 1);
   /* animation-timing-function: ease-in-out; */
   animation-fill-mode: both;
+  will-change: transform, opacity;
+  content-visibility: auto; /* Lets browser skip work when offscreen */
 }
 
 /* Animate upward */
 .move-up {
-  animation-name: move-up;
+  animation: move-up;
 }
 
 /* Animate downward */
 .move-down {
-  animation-name: move-down;
+  animation: move-down;
 }
 
 @keyframes move-up {

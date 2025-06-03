@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar">
       <Link to="/">
         <div className="navbar-logo">
-          <img src="logo-candela2.jpg" alt=''/> CANDELA
+          <img src="/icons/logo-candela2.jpg" alt=''/> CANDELA
           <span> |</span>
           <span><p> FILMS</p></span>
         </div>
@@ -36,9 +36,9 @@ function Navbar() {
         </ul>
         <span>|</span>
         <ul className="socials">
-          <Link to="facebook.com"><img src="facebook.svg" alt="" /></Link>
-          <div className="yt"><Link to="youtube.com" ><img src="youtube.svg" alt="" /></Link></div>
-          <Link to="instagram.com"><img src="instagram.svg" alt="" /></Link>
+          <Link to="facebook.com"><img src="/icons/facebook.svg" alt="" /></Link>
+          <div className="yt"><Link to="youtube.com" ><img src="/icons/youtube.svg" alt="" /></Link></div>
+          <Link to="instagram.com"><img src="/icons/instagram.svg" alt="" /></Link>
         </ul>
       </div>
       

@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../contexts/LanguageContext'
-// import '../assets/nav-dropdown.css'
 
 function NavDropdown() {
   const [toggle, setToggle] = useState(false)
@@ -11,7 +10,7 @@ function NavDropdown() {
     <div className="nav-dropdown"
       onClick={()=> setToggle(!toggle)}
     >
-      <img src="hamburger.svg" alt="menu" className={toggle ? 'dropdown-menu-open' : ''} />
+      <img src="/icons/hamburger.svg" alt="menu" className={toggle ? 'dropdown-menu-open' : ''} />
       <div className={`dropdown ${toggle ? 'open' : ''}`}>
         <ul className={`dropdown-tabs ${toggle ? 'open' : ''}`}>
           <li className='dropdown-language'>
